@@ -29,6 +29,7 @@ instagram_username                        :
 twitter_username                          : ReMafoX_App
 github_username                           : FlineDev
 youtube_username                          : FlineDev
+twitch_username                           : Jeehut
 
 
 
@@ -49,7 +50,7 @@ features                                  :
 
   - title                                 : Linter
     description                           : Get warnings for translation issues such as empty translations or duplicate keys.
-    fontawesome_icon_name                 : ballot-check
+    fontawesome_icon_name                 : check-circle
 
   - title                                 : Normalizer
     description                           : Find translations faster in your Strings files by sorting their keys alphabetically.
@@ -65,7 +66,7 @@ features                                  :
 
   - title                                 : Pluralization made easy
     description                           : Full support for pluralization via Stringsdict files without the need to learn about their syntax.
-    fontawesome_icon_name                 : folder-tree
+    fontawesome_icon_name                 : th-list
 
   - title                                 : Smart machine translation
     description                           : Translating pluralized texts is made easy by an automatic language-aware mapping of plural cases.
@@ -77,11 +78,11 @@ features                                  :
 
   - title                                 : Regular Updates
     description                           : This is just the beginning. With monthly feature updates, more things are on the horizon.
-    fontawesome_icon_name                 : up
+    fontawesome_icon_name                 : rocket-launch
 
   - title                                 : Free Tier
     description                           : For smaller projects, most of the features are fully available without the need to pay anything.
-    fontawesome_icon_name                 : badge-percent
+    fontawesome_icon_name                 : coins
 
 
 
