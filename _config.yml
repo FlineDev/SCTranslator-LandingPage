@@ -78,7 +78,7 @@ features                                  :
 
   - title                                 : Regular Updates
     description                           : This is just the beginning. With monthly feature updates, more things are on the horizon.
-    fontawesome_icon_name                 : sparkles
+    fontawesome_icon_name                 : cloud-upload
 
   - title                                 : Free Tier
     description                           : For smaller projects, most of the features are fully available without the need to pay anything.
