@@ -6,6 +6,8 @@ include_in_header: true
 
 # Release Notes
 
+Note that I follow [Semantic Versioning](https://semver.org) which means that the `major` (first) number in a version like `1.0.0` will only change if there's either a breaking change with something like the config file format (users with the old version then wouldn't be able to open the file saved with the new version), or if there's a significant change in the usage flow of the app (so users need to change their habits). A **migration guide** will be provided on this page for every breaking change.
+
 ## [1.0.2] - 2022-10-09
 
 ### Added
