@@ -19,12 +19,6 @@
 	</div>
 	<nav class="scroll">
 		<ul>
-			<li><a href="https://github.com/FlineDev/ReMafoX/releases" target="_self">What's New</a></li>
-			<li><a href="https://github.com/FlineDev/ReMafoX/milestones?direction=asc&sort=due_date&state=open" target="_self">Roadmap</a></li>
-			<li><a href="https://github.com/FlineDev/ReMafoX/discussions" target="_self">Forum</a></li>
-			<li><a href="https://www.fline.dev/tag/remafox/" target="_self">Blog</a></li>
-
-
 			{% for page in site.pages %}
 				{% if page.include_in_header == true %}
 				<li><a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a></li>
@@ -33,6 +27,9 @@
 			{% if site.presskit_download_link %}
 				<li><a href="{{ site.presskit_download_link }}">Press Kit</a></li>
 			{% endif %}
+
+			<li><a href="https://github.com/FlineDev/ReMafoX/discussions" target="_self">Forum</a></li>
+			<li><a href="https://www.fline.dev/tag/remafox/" target="_self">Blog</a></li>
 		</ul>
 	</nav>
 </header>
