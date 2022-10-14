@@ -16,6 +16,9 @@ The following is a list of all bugs & features I'm planning to work on within th
 ## October Update
 
 * [[Feat] Add full support for Ventura](https://github.com/FlineDev/ReMafoX/issues/9)
+* [[Feat] Provide a bulk translation workflow for all Strings in a file](https://github.com/FlineDev/ReMafoX/issues/18)
+* [[Bug] [Code: PRAxME] "Found an empty translation value for key" stops translation, no option to ignore](https://github.com/FlineDev/ReMafoX/issues/20)
+* [[Bug] "Update Strings files from Storyboard/XIB files" not working](https://github.com/FlineDev/ReMafoX/issues/21)
 
 ## November Update
 
