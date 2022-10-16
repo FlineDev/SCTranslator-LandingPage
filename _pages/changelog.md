@@ -22,7 +22,7 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 - Fixed ignoring the ignore flags (e.g. `#remafox-ignore`) for extracting Strings from Storyboard/XIB files. [#21](https://github.com/FlineDev/ReMafoX/issues/21) (Thanks to [@lukemmtt](https://github.com/lukemmtt)!)
 - Improved the naming of the type generated for keys like `%1$@ %2$@` from being `_12` to being `UnnamedParam1UnnamedParam2`. [#23](https://github.com/FlineDev/ReMafoX/issues/23)
 - Fixed a non-closeable Plan Chooser window showing on each app start when installing the app with a pre-purchased plan. [#40](https://github.com/FlineDev/ReMafoX/issues/40) (Thanks to [James](https://twitter.com/JamesSherlouk)!)
-- Fixed the "Insert" buttons in Add Translation window being disabled when on the Max tier. [#25](Thanks to [@gaige](https://github.com/gaige) & [James](https://twitter.com/JamesSherlouk)!)
+- Fixed the "Insert" buttons in Add Translation window being disabled when on the Max tier. [#25](https://github.com/FlineDev/ReMafoX/issues/25) (Thanks to [@gaige](https://github.com/gaige) & [James](https://twitter.com/JamesSherlouk)!)
 
 ## [1.0.2] - 2022-10-09
 
