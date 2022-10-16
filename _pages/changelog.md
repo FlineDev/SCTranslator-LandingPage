@@ -8,6 +8,22 @@ include_in_header: true
 
 Note that I follow [Semantic Versioning](https://semver.org) which means that the `major` (first) number in a version like `1.0.0` will only change if there's either a breaking change with something like the config file format (users with the old version then wouldn't be able to open the file saved with the new version), or if there's a significant change in the usage flow of the app (so users need to change their habits). A **migration guide** will be provided on this page for every breaking change.
 
+## [1.0.3] - 2022-10-16
+
+### Added
+- Welsh was added to the supported languages, including full pluralization support! [#32](https://github.com/FlineDev/ReMafoX/issues/32) (Thanks to [James](https://twitter.com/JamesSherlouk)!)
+
+### Changed
+- Added current tier info to the environment info when reporting bugs to help reproducing bugs.
+- Improved the error message to point to the current solution for non-Base-localized Storyboard/XIB/Intent files. [#41](https://github.com/FlineDev/ReMafoX/issues/41)
+
+### Fixed
+- Fixed empty source translations preventing bulk machine translations from completing. [#20](https://github.com/FlineDev/ReMafoX/issues/20) (Thanks to [@lukemmtt](https://github.com/lukemmtt)!)
+- Fixed ignoring the ignore flags (e.g. `#remafox-ignore`) for extracting Strings from Storyboard/XIB files. [#21](https://github.com/FlineDev/ReMafoX/issues/21) (Thanks to [@lukemmtt](https://github.com/lukemmtt)!)
+- Improved the naming of the type generated for keys like `%1$@ %2$@` from being `_12` to being `UnnamedParam1UnnamedParam2`. [#23](https://github.com/FlineDev/ReMafoX/issues/23)
+- Fixed a non-closeable Plan Chooser window showing on each app start when installing the app with a pre-purchased plan. [#40](https://github.com/FlineDev/ReMafoX/issues/40) (Thanks to [James](https://twitter.com/JamesSherlouk)!)
+- Fixed the "Insert" buttons in Add Translation window being disabled when on the Max tier. [#25](Thanks to [@gaige](https://github.com/gaige) & [James](https://twitter.com/JamesSherlouk)!)
+
 ## [1.0.2] - 2022-10-09
 
 ### Added
