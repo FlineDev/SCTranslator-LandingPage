@@ -6,7 +6,7 @@ include_in_header: true
 
 # Roadmap
 
-I am an Indie Developer and I want to develop and maintain multiple apps. Some of them are small-scoped one-off app ideas, but this is one of the larger scoped projects with potential for more features. For projects like this, I try to provide at least **1 new feature per month** (& as many bug fixes as possible).
+I am an Indie Developer and I want to develop and maintain multiple apps. Some of them are small-scoped one-off app ideas, but this is one of the larger scoped projects with potential for more features. For projects like this, I try to provide at least **1 new feature per month**.
 
 By [voting on bug reports and feature requests](https://github.com/FlineDev/ReMafoX/issues?q=is%3Aissue+sort%3Aupdated+is%3Aopen) (via 👍), you help me prioritize.
 New ideas are always welcome!
