@@ -8,6 +8,20 @@ include_in_header: true
 
 Note that I follow [Semantic Versioning](https://semver.org) which means that the `major` (first) number in a version like `1.0.0` will only change if there's either a breaking change with something like the config file format (users with the old version then wouldn't be able to open the file saved with the new version), or if there's a significant change in the usage flow of the app (so users need to change their habits). A **migration guide** will be provided on this page for every breaking change.
 
+
+## [1.0.4] - 2022-10-21
+
+### Added
+- Added support for regional Microsoft Translator resources, simply provide your region in the 'Set up API Keys' form in app settings. [#51](https://github.com/FlineDev/ReMafoX/issues/51) (Thanks to [Nick](https://github.com/nickfedoroff) & [Liviu](https://twitter.com/LiviuJianu)!)
+
+### Changed
+- Changed keyboard shortcut for opening the Projects Browser from Cmd+P to the more common Cmd+0. [#48](https://github.com/FlineDev/ReMafoX/issues/48) (Thanks to [@gaige](https://github.com/gaige)!)
+
+### Fixed
+- Fixed unaligned texts in the help menu. [#46](https://github.com/FlineDev/ReMafoX/issues/46) (Thanks to [@gaige](https://github.com/gaige)!)
+- Fixed the default icon not being pre-selected in the Settings.
+
+
 ## [1.0.3] - 2022-10-16
 
 ### Added
@@ -23,6 +37,7 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 - Improved the naming of the type generated for keys like `%1$@ %2$@` from being `_12` to being `UnnamedParam1UnnamedParam2`. [#23](https://github.com/FlineDev/ReMafoX/issues/23)
 - Fixed a non-closeable Plan Chooser window showing on each app start when installing the app with a pre-purchased plan. [#40](https://github.com/FlineDev/ReMafoX/issues/40) (Thanks to [James](https://twitter.com/JamesSherlouk)!)
 - Fixed the "Insert" buttons in Add Translation window being disabled when on the Max tier. [#25](https://github.com/FlineDev/ReMafoX/issues/25) (Thanks to [@gaige](https://github.com/gaige) & [James](https://twitter.com/JamesSherlouk)!)
+
 
 ## [1.0.2] - 2022-10-09
 
