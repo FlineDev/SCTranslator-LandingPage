@@ -11,26 +11,26 @@ I am an Indie Developer and I want to develop and maintain multiple apps. Some o
 By [voting on bug reports and feature requests](https://github.com/FlineDev/ReMafoX/issues?q=is%3Aissue+sort%3Aupdated+is%3Aopen) (via 👍), you help me prioritize.
 New ideas are always welcome!
 
-The following is a list of the features I'm planning to work on within the next 3 months.
+The following is a list of the features I'm planning to work on within the next 6 months.
 
-## October Update
+## November '22 Update
 
-* [[Feat] Add full support for Ventura](https://github.com/FlineDev/ReMafoX/issues/9)
-* [[Feat] Full Objective-C support](https://github.com/FlineDev/ReMafoX/issues/26)
+* [Provide a bulk translation workflow for all Strings in a file](https://github.com/FlineDev/ReMafoX/issues/18)
+* [Pro Tier for Open Source projects for Free](https://github.com/FlineDev/ReMafoX/issues/10)
 
-## November Update
+## December '22 Update
 
-* [[Feat] Provide a bulk translation workflow for all Strings in a file](https://github.com/FlineDev/ReMafoX/issues/18)
-* [[Feat] Pro Tier for Open Source projects for Free](https://github.com/FlineDev/ReMafoX/issues/10)
+* [Add support for Google Translate service](https://github.com/FlineDev/ReMafoX/issues/11)
+* [Add support for Yandex translation service](https://github.com/FlineDev/ReMafoX/issues/4)
 
-## December Update
+## January '23 Update
 
-* [[Feat] Add support for Google Translate service](https://github.com/FlineDev/ReMafoX/issues/11)
-* [[Feat] Add support for Yandex translation service](https://github.com/FlineDev/ReMafoX/issues/4)
+* [Support more languages than the current 40](https://github.com/FlineDev/ReMafoX/issues/39)
+* [Provide auto-completion for keys for reusing same prefixes](https://github.com/FlineDev/ReMafoX/issues/22)
 
 ## Planned for Later (Selection)
 
-* [[Feat] Support more languages than the current 40](https://github.com/FlineDev/ReMafoX/issues/39)
-* [[Feat] Machine-translate Fastlane App Store text files](https://github.com/FlineDev/ReMafoX/issues/14)
-* [[Feat] Easy way of inviting others to verify translations](https://github.com/FlineDev/ReMafoX/issues/13)
-* [[Feat] Specialized Strings file editor](https://github.com/FlineDev/ReMafoX/issues/12)
+* [Machine-translate Fastlane App Store text files](https://github.com/FlineDev/ReMafoX/issues/14)
+* [Easy way of inviting others to verify translations](https://github.com/FlineDev/ReMafoX/issues/13)
+* [Specialized Strings file editor](https://github.com/FlineDev/ReMafoX/issues/12)
+* [Provide a list of validated common translations](https://github.com/FlineDev/ReMafoX/issues/55)
