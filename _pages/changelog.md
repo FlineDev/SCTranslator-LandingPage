@@ -8,8 +8,14 @@ include_in_header: true
 
 Note that I follow [Semantic Versioning](https://semver.org) which means that the `major` (first) number in a version like `1.0.0` will only change if there's either a breaking change with something like the config file format (users with the old version then wouldn't be able to open the file saved with the new version), or if there's a significant change in the usage flow of the app (so users need to change their habits). A **migration guide** will be provided on this page for every breaking change.
 
+## 🐞 [1.1.1] - 2022-11-03
 
-## October '22 Feature Update: [1.1.0] – 2022-10-29
+### Fixed
+- Escaping the key portion in line number search for Stringsdict files properly to prevent a project setup error. [#58](https://github.com/FlineDev/ReMafoX/issues/58) (Thanks to [Franco](https://twitter.com/dokfranco)!)
+- Exclude more types of Xcode-managed Strings files from being included in the generated code. [#49](https://github.com/FlineDev/ReMafoX/issues/49) (Thanks to [James](https://twitter.com/JamesSherlouk)!)
+
+
+## ✨ October '22 Feature Update: ✨ [1.1.0] – 2022-10-29
 
 ### Added
 - Officially added support for macOS 13 "Ventura" (tested & fixed some minor issues).
@@ -26,7 +32,7 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 - Fixed changing translation texts in Add Translation view in the middle of texts sending cursor to end.
 
 
-## [1.0.4] - 2022-10-21
+## 🐞 [1.0.4] - 2022-10-21
 
 ### Added
 - Added support for regional Microsoft Translator resources, simply provide your region in the 'Set up API Keys' form in app settings. [#51](https://github.com/FlineDev/ReMafoX/issues/51) (Thanks to [Nick](https://github.com/nickfedoroff) & [Liviu](https://twitter.com/LiviuJianu)!)
@@ -39,7 +45,7 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 - Fixed the default icon not being pre-selected in the Settings.
 
 
-## [1.0.3] - 2022-10-16
+## 🐞 [1.0.3] - 2022-10-16
 
 ### Added
 - Welsh was added to the supported languages, including full pluralization support! [#32](https://github.com/FlineDev/ReMafoX/issues/32) (Thanks to [James](https://twitter.com/JamesSherlouk)!)
@@ -56,7 +62,7 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 - Fixed the "Insert" buttons in Add Translation window being disabled when on the Max tier. [#25](https://github.com/FlineDev/ReMafoX/issues/25) (Thanks to [@gaige](https://github.com/gaige) & [James](https://twitter.com/JamesSherlouk)!)
 
 
-## [1.0.2] - 2022-10-09
+## 🐞 [1.0.2] - 2022-10-09
 
 ### Added
 - Added links to learning material videos in Projects Browser for both project setup & add translation best practices.
@@ -67,7 +73,7 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 - Fixed an issue with the build script not pointing to the home directory properly, making the build script not recognize the CLI tool.
 
 
-## [1.0.1] - 2022-10-07
+## 🐞 [1.0.1] - 2022-10-07
 
 ### Added
 - New 'Help' menu item with a direct link to leave a rating on the App Store.
@@ -76,7 +82,7 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 - Fixed an issue where no error details would be presented when enum generation failed in project setup, getting stuck in the process.
 
 
-## [1.0.0] - 2022-10-05
+## ✨ Public Release: ✨ [1.0.0] - 2022-10-05
 
 ### Added
 - Updated DeepL supported languages to include Indonesian, Turkish, and Ukrainian.
@@ -88,7 +94,7 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 - Fixed an issue where no error details would be presented when counting keys in config file failed.
 
 
-## [1.0.0-beta.4] - 2022-09-20
+## 🐞 [1.0.0-beta.4] - 2022-09-20
 
 ### Added
 - Added "Show Projects Browser" & "Show Add Translation" buttons to "Window" menu bar to help with some window management issues.
@@ -112,7 +118,7 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 - Fixed an issue with multi-line translation values in the source language leading to compiler errors in the generated Swift file.
 
 
-## [1.0.0-beta.3] - 2022-09-01
+## 🐞 [1.0.0-beta.3] - 2022-09-01
 
 ### Added
 - A new App Icon Switcher in the app's settings allows users to select their preferred app icon design & color.
@@ -150,7 +156,7 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 - Fixed an issue which could lead to a crash on project setup in projects with Base-localized Storyboard/XIB files.
 
 
-## [1.0.0-beta.2] - 2022-07-24
+## 🐞 [1.0.0-beta.2] - 2022-07-24
 
 ### Added
 - Warns when config file format has higher version than currently supported with hint to upgrade.
@@ -179,7 +185,7 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 - Fixed an issue where contents from Storyboard/XIB-related Strings files would be included into the generated resources enum.
 
 
-## [1.0.0-beta.1] - 2022-07-07
+## ✨ Beta Release: ✨ [1.0.0-beta.1] - 2022-07-07
 
 ### List of Features in this Beta
 - **Add new localizable Strings** to your Strings files without ever leaving your Swift file in Xcode (Free)
