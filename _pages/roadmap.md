@@ -15,7 +15,7 @@ The following is a list of the features I'm planning to work on within the next 
 
 ## November '22 Feature Update
 
-* [Provide a bulk translation workflow for all Strings in a file](https://github.com/FlineDev/ReMafoX/issues/18)
+* [Support more languages than the current 40](https://github.com/FlineDev/ReMafoX/issues/39)
 * [Pro Tier for Open Source projects for Free](https://github.com/FlineDev/ReMafoX/issues/10)
 
 ## December '22 Feature Update
@@ -25,7 +25,7 @@ The following is a list of the features I'm planning to work on within the next 
 
 ## January '23 Feature Update
 
-* [Support more languages than the current 40](https://github.com/FlineDev/ReMafoX/issues/39)
+* [Provide a bulk translation workflow for all Strings in a file](https://github.com/FlineDev/ReMafoX/issues/18)
 * [Provide auto-completion for keys for reusing same prefixes](https://github.com/FlineDev/ReMafoX/issues/22)
 
 ## Planned for Later (Selection)
