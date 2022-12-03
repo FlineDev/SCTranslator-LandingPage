@@ -11,15 +11,15 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 ## 🐞 [1.1.1] - 2022-11-03
 
 ### Fixed
-- Escaping the key portion in line number search for Stringsdict files properly to prevent a project setup error. [#58](https://github.com/FlineDev/ReMafoX/issues/58) (Thanks to [Franco](https://twitter.com/dokfranco)!)
-- Exclude more types of Xcode-managed Strings files from being included in the generated code. [#49](https://github.com/FlineDev/ReMafoX/issues/49) (Thanks to [James](https://twitter.com/JamesSherlouk)!)
+- Escaping the key portion in line number search for Stringsdict files properly to prevent a project setup error. [#58](https://github.com/FlineDev/RemafoX/issues/58) (Thanks to [Franco](https://twitter.com/dokfranco)!)
+- Exclude more types of Xcode-managed Strings files from being included in the generated code. [#49](https://github.com/FlineDev/RemafoX/issues/49) (Thanks to [James](https://twitter.com/JamesSherlouk)!)
 
 
 ## ✨ October '22 Feature Update: ✨ [1.1.0] – 2022-10-29
 
 ### Added
 - Officially added support for macOS 13 "Ventura" (tested & fixed some minor issues).
-- Added support for generating **Objective-C compatible code** for safely accessing localized Strings. Enable in the 'Generated Code' pane. [#26](https://github.com/FlineDev/ReMafoX/issues/26)
+- Added support for generating **Objective-C compatible code** for safely accessing localized Strings. Enable in the 'Generated Code' pane. [#26](https://github.com/FlineDev/RemafoX/issues/26)
 – The Add Translation workflow will now **automatically insert Objective-C** code when triggered from within an Objective-C file.
 - **Automatic detection** of projects containing Objective-C code (to set the new option) for a streamlined project setup.
 
@@ -35,31 +35,31 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 ## 🐞 [1.0.4] - 2022-10-21
 
 ### Added
-- Added support for regional Microsoft Translator resources, simply provide your region in the 'Set up API Keys' form in app settings. [#51](https://github.com/FlineDev/ReMafoX/issues/51) (Thanks to [Nick](https://github.com/nickfedoroff) & [Liviu](https://twitter.com/LiviuJianu)!)
+- Added support for regional Microsoft Translator resources, simply provide your region in the 'Set up API Keys' form in app settings. [#51](https://github.com/FlineDev/RemafoX/issues/51) (Thanks to [Nick](https://github.com/nickfedoroff) & [Liviu](https://twitter.com/LiviuJianu)!)
 
 ### Changed
-- Changed keyboard shortcut for opening the Projects Browser from Cmd+P to the more common Cmd+0. [#48](https://github.com/FlineDev/ReMafoX/issues/48) (Thanks to [@gaige](https://github.com/gaige)!)
+- Changed keyboard shortcut for opening the Projects Browser from Cmd+P to the more common Cmd+0. [#48](https://github.com/FlineDev/RemafoX/issues/48) (Thanks to [@gaige](https://github.com/gaige)!)
 
 ### Fixed
-- Fixed unaligned texts in the help menu. [#46](https://github.com/FlineDev/ReMafoX/issues/46) (Thanks to [@gaige](https://github.com/gaige)!)
+- Fixed unaligned texts in the help menu. [#46](https://github.com/FlineDev/RemafoX/issues/46) (Thanks to [@gaige](https://github.com/gaige)!)
 - Fixed the default icon not being pre-selected in the Settings.
 
 
 ## 🐞 [1.0.3] - 2022-10-16
 
 ### Added
-- Welsh was added to the supported languages, including full pluralization support! [#32](https://github.com/FlineDev/ReMafoX/issues/32) (Thanks to [James](https://twitter.com/JamesSherlouk)!)
+- Welsh was added to the supported languages, including full pluralization support! [#32](https://github.com/FlineDev/RemafoX/issues/32) (Thanks to [James](https://twitter.com/JamesSherlouk)!)
 
 ### Changed
 - Added current tier info to the environment info when reporting bugs to help reproducing bugs.
-- Improved the error message to point to the current solution for non-Base-localized Storyboard/XIB/Intent files. [#41](https://github.com/FlineDev/ReMafoX/issues/41)
+- Improved the error message to point to the current solution for non-Base-localized Storyboard/XIB/Intent files. [#41](https://github.com/FlineDev/RemafoX/issues/41)
 
 ### Fixed
-- Fixed empty source translations preventing bulk machine translations from completing. [#20](https://github.com/FlineDev/ReMafoX/issues/20) (Thanks to [@lukemmtt](https://github.com/lukemmtt)!)
-- Fixed ignoring the ignore flags (e.g. `#remafox-ignore`) for extracting Strings from Storyboard/XIB files. [#21](https://github.com/FlineDev/ReMafoX/issues/21) (Thanks to [@lukemmtt](https://github.com/lukemmtt)!)
-- Improved the naming of the type generated for keys like `%1$@ %2$@` from being `_12` to being `UnnamedParam1UnnamedParam2`. [#23](https://github.com/FlineDev/ReMafoX/issues/23)
-- Fixed a non-closeable Plan Chooser window showing on each app start when installing the app with a pre-purchased plan. [#40](https://github.com/FlineDev/ReMafoX/issues/40) (Thanks to [James](https://twitter.com/JamesSherlouk)!)
-- Fixed the "Insert" buttons in Add Translation window being disabled when on the Max tier. [#25](https://github.com/FlineDev/ReMafoX/issues/25) (Thanks to [@gaige](https://github.com/gaige) & [James](https://twitter.com/JamesSherlouk)!)
+- Fixed empty source translations preventing bulk machine translations from completing. [#20](https://github.com/FlineDev/RemafoX/issues/20) (Thanks to [@lukemmtt](https://github.com/lukemmtt)!)
+- Fixed ignoring the ignore flags (e.g. `#remafox-ignore`) for extracting Strings from Storyboard/XIB files. [#21](https://github.com/FlineDev/RemafoX/issues/21) (Thanks to [@lukemmtt](https://github.com/lukemmtt)!)
+- Improved the naming of the type generated for keys like `%1$@ %2$@` from being `_12` to being `UnnamedParam1UnnamedParam2`. [#23](https://github.com/FlineDev/RemafoX/issues/23)
+- Fixed a non-closeable Plan Chooser window showing on each app start when installing the app with a pre-purchased plan. [#40](https://github.com/FlineDev/RemafoX/issues/40) (Thanks to [James](https://twitter.com/JamesSherlouk)!)
+- Fixed the "Insert" buttons in Add Translation window being disabled when on the Max tier. [#25](https://github.com/FlineDev/RemafoX/issues/25) (Thanks to [@gaige](https://github.com/gaige) & [James](https://twitter.com/JamesSherlouk)!)
 
 
 ## 🐞 [1.0.2] - 2022-10-09
@@ -113,7 +113,7 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 - Fixed an issue with machine-translation not finding `.strings(dict)` files when the language forlders are in same path as `.remafox` config file. (Thanks to [Ulf](https://twitter.com/vieuxrenard))
 - Fixed an issue that could lead to a crash during machine-translation with `.strings(dict)` files in `.lproj` paths with invalid lang codes.
 - Fixed an issue in the project browser that could delete the wrong project in the list after confirming the delete.
-- Fixed an issue where editing a `.stringsdict` file from Xcode would lead to a different indentation format than when produced by ReMafoX.
+- Fixed an issue where editing a `.stringsdict` file from Xcode would lead to a different indentation format than when produced by RemafoX.
 - Fixed an issue that rendered some leftover SF Symbols in Add Translation text views incorrectly.
 - Fixed an issue with multi-line translation values in the source language leading to compiler errors in the generated Swift file.
 
@@ -147,7 +147,7 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 - Fixed an issue which prevented the machine translation results view from being shown when started from config file. (Thanks to [Ulf](https://twitter.com/vieuxrenard))
 - Fixed an issue that could lead to a crash in some language combinations within the smart mapping logic when translating pluralized Strings.
 - Fixed the build script showing an invalid relative path to the config file by calculating relative path from project if available. (Thanks to [Ulf](https://twitter.com/vieuxrenard))
-- Fixed an issue where the build script could fail with an `Error Code: RWF-X` stating 'data couldn't be read because it is missing' even if it wasn't. [#3](https://github.com/FlineDev/ReMafoX/issues/3) (Thanks to [Vasiliy](https://twitter.com/anivaros))
+- Fixed an issue where the build script could fail with an `Error Code: RWF-X` stating 'data couldn't be read because it is missing' even if it wasn't. [#3](https://github.com/FlineDev/RemafoX/issues/3) (Thanks to [Vasiliy](https://twitter.com/anivaros))
 - Fixed an issue that could prevent a translation text field receiving user input from the user after pressing 'Rescan' button in add translation view.
 - Fixed an issue with jumping to a next language text field via pressing 'tab' on pluralized text entry in add translation view.
 - Fixed an issue that prevented the default indentation style for new projects to be '4 spaces' (it defaulted to '3 spaces' instead).
