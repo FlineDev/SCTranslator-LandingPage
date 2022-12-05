@@ -8,6 +8,22 @@ include_in_header: true
 
 Note that I follow [Semantic Versioning](https://semver.org) which means that the `major` (first) number in a version like `1.0.0` will only change if there's either a breaking change with something like the config file format (users with the old version then wouldn't be able to open the file saved with the new version), or if there's a significant change in the usage flow of the app (so users need to change their habits). A **migration guide** will be provided on this page for every breaking change.
 
+
+## ✨ November '22 Feature Update: ✨ [1.2.0] - 2022-12-05
+
+### Added
+- Added support for 5 missing languages supported by the DeepL machine translation service: Bulgarian, Estonian, Lithuanian, Latvian, and Slovenian.
+- Added support for 61 (!!) missing languages supported by the Microsoft Translator service, for example: Amharic, Azerbaijani, Bosnian, Burmese, Filipino, Khmer, Klingon, Malagasy, Nepali, Pashto, Persian, Punjabi, Serbian, Uyghur, Telugu, Turkmen, Uzbek, and many more! Yes, even Klingon. [⌒.-]
+- A new 'Related Tools' menu links to related tools, libraries, and apps that might be of interest to users of RemafoX.
+
+### Changed
+- The name of the app has been slightly simplified by lowercasing the previously uppercased 'M'. Now it reads: 'RemafoX', instead of 'ReMafoX'.
+
+### Fixed
+- Fixed an issue with the inserted code not referencing things correctly when the default code generation settings were changed. [#64](https://github.com/FlineDev/RemafoX/issues/64) (Thanks to [Logan](https://twitter.com/logan_is_itt)!)
+- Showing a warning when the key in the 'Add Translation' view contains a newline as this is most probably an oversight & could lead to issues in Xcode. [#65](https://github.com/FlineDev/RemafoX/issues/65) (Thanks to [Logan](https://twitter.com/logan_is_itt)!)
+
+
 ## 🐞 [1.1.1] - 2022-11-03
 
 ### Fixed
