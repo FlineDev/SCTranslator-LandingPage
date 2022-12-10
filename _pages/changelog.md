@@ -9,7 +9,13 @@ include_in_header: true
 Note that I follow [Semantic Versioning](https://semver.org) which means that the `major` (first) number in a version like `1.0.0` will only change if there's either a breaking change with something like the config file format (users with the old version then wouldn't be able to open the file saved with the new version), or if there's a significant change in the usage flow of the app (so users need to change their habits). A **migration guide** will be provided on this page for every breaking change.
 
 
-## ✨ Nov '22 Feature Update ✨ [1.2.0] - 2022-12-05
+## 🐞 [1.2.1] - 2022-12-10
+
+### Fixed
+- Fixed 'Copy Code' button text color in dark mode from white-on-white (invisible) to black-on-white. [#68](https://github.com/FlineDev/RemafoX/issues/68) (Thanks to [Marc](https://github.com/marcrespass)!)
+
+
+## ✨ [1.2.0] - 2022-12-05 (Nov '22 Feature Update)
 
 ### Added
 - Added support for **5 missing languages** supported by the **DeepL** machine translation service: Bulgarian, Estonian, Lithuanian, Latvian, and Slovenian.
@@ -31,7 +37,7 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 - Exclude more types of Xcode-managed Strings files from being included in the generated code. [#49](https://github.com/FlineDev/RemafoX/issues/49) (Thanks to [James](https://twitter.com/JamesSherlouk)!)
 
 
-## ✨ Oct '22 Feature Update ✨ [1.1.0] – 2022-10-29
+## ✨ [1.1.0] – 2022-10-29 (Oct '22 Feature Update)
 
 ### Added
 - Officially added support for macOS 13 "Ventura" (tested & fixed some minor issues).
