@@ -9,6 +9,30 @@ include_in_header: true
 Note that I follow [Semantic Versioning](https://semver.org) which means that the `major` (first) number in a version like `1.0.0` will only change if there's either a breaking change with something like the config file format (users with the old version then wouldn't be able to open the file saved with the new version), or if there's a significant change in the usage flow of the app (so users need to change their habits). A **migration guide** will be provided on this page for every breaking change.
 
 
+## ✨ [1.4.0] - 2023-02-08 (Jan '23 Feature Update)
+
+### Added
+- Added support for Google Translate with full support for all ~130 languages. [#11](https://github.com/FlineDev/RemafoX/issues/11)
+- Added support for Yandex Translate with full support for all ~90 languages. [#4](https://github.com/FlineDev/RemafoX/issues/11) (Thanks to [Vasily](https://twitter.com/anivaros)!)
+- About 50 new languages were added, including Frisian, Scottish, Tajik, Yiddish & many more. 152 languages are now supported in total!
+- Updated DeepL supported languages to include Korean and Norwegian. (Thanks to [Holger](https://twitter.com/_holger)!)
+
+### Changed
+- Renamed all references to "Preferences" to "Settings" for proper wording on macOS Ventura and later. (Thanks to [Holger](https://twitter.com/_holger)!)
+
+### Fixed
+- Fixed an issue with Microsoft Translator not working within projects that support more than 100 langauges.
+
+
+## [1.3.1] - 2023-01-14
+
+### Removed
+- Removed 3 regional language variants as they actually aren't supported by any currently supported translation service.
+
+### Fixed
+- Fixed an issue where multiple Add Translation windows would stay open on multiple use of the shortcut.
+
+
 ## 🐞 [1.3.1] - 2023-01-14
 
 ### Removed
