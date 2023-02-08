@@ -21,7 +21,7 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 - Renamed all references to "Preferences" to "Settings" for proper wording on macOS Ventura and later. (Thanks to [Holger](https://twitter.com/_holger)!)
 
 ### Fixed
-- Fixed an issue with Microsoft Translator not working within projects that support more than 100 langauges.
+- Fixed an issue with Microsoft Translator not working within projects that support more than 100 languages.
 
 
 ## [1.3.1] - 2023-01-14
