@@ -9,6 +9,30 @@ include_in_header: true
 Note that I follow [Semantic Versioning](https://semver.org) which means that the `major` (first) number in a version like `1.0.0` will only change if there's either a breaking change with something like the config file format (users with the old version then wouldn't be able to open the file saved with the new version), or if there's a significant change in the usage flow of the app (so users need to change their habits). A **migration guide** will be provided on this page for every breaking change.
 
 
+## ✨ [1.5.0] - 2023-04-15 (Feb, Mar, Apr '23 Feature Update)
+
+### Added
+- The Add Translation window now provides auto-completions for the first two parts of a key to easily reuse the same prefixes. This saves time and prevents typos! [#22](https://github.com/FlineDev/RemafoX/issues/22)
+- The Add Translation window now supports both reusing existing keys and overriding them – you have the choice! [#81](https://github.com/FlineDev/RemafoX/issues/81), [#95](https://github.com/FlineDev/RemafoX/issues/95) (Thanks to [Nico](https://twitter.com/n1c0_muc) and [Rob](https://twitter.com/ConfusedVorlon)!)
+- The config file has now a convenient "Open project in Xcode" button in the general section below the project picker.
+
+### Changed
+- Rewrote the entire logic for managing windows & navigation, making use of new SwiftUI APIs available on macOS 13.
+- Improved handling when user tries to configure a project that's already configured by providing quick action buttons. [#92](https://github.com/FlineDev/RemafoX/issues/92) (Thanks to [Rob](https://twitter.com/ConfusedVorlon)!)
+- Changed the `formality` level for DeepL to prefer less formal language as this is what Apple and other translation services also default to. (Thanks to [Nico](https://twitter.com/n1c0_muc) and [Micha](https://github.com/michafaw)!)
+
+### Removed
+- Dropped support for macOS 12 after macOS 13 has been out for over 6 months. New minimum requirement: macOS 13.0.
+
+### Fixed
+- Thanks to the window management & navigation rework, many navigation-related bugs were fixed. [#43](https://github.com/FlineDev/RemafoX/issues/43) [#50](https://github.com/FlineDev/RemafoX/issues/50) [#59](https://github.com/FlineDev/RemafoX/issues/59) [#74](https://github.com/FlineDev/RemafoX/issues/74) [#76](https://github.com/FlineDev/RemafoX/issues/76) If you come across new ones, make sure to report them in the apps 'Help' menu! (Thanks to [@gaige](https://github.com/gaige), [Nico](https://twitter.com/n1c0_muc), [Rob](https://twitter.com/ConfusedVorlon), [David](https://github.com/croyfoo), and [Jason](https://github.com/jason-vectorrecipe)!)
+- Fixed an issue where setting up a project without localized files would result in an empty search path, so even localized Strings added later wouldn't be found. (Thanks to [Antoine](https://twitter.com/twannl)!)
+- Fixed a regression where generating the resources enum file via the build script was broken. (Thanks to [Antoine](https://twitter.com/twannl)!)
+- Fixed an issue with a broken progress state after error occurred during project setup. (Thanks to [Antoine](https://twitter.com/twannl)!)
+- Fixed an issue with translating texts containing an ampersand '&' character on DeepL. (Thanks to [Nico](https://twitter.com/n1c0_muc)!)
+- The 'Insert as LocalizedStringKey' button is now disabled in 'pluralized' mode to prevent confusion. [#90](https://github.com/FlineDev/RemafoX/issues/90)
+
+
 ## 🐞 [1.4.1] - 2023-02-20
 
 ### Fixed
