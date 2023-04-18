@@ -11,6 +11,8 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 
 ## ✨ [1.5.0] - 2023-04-15 (Feb, Mar, Apr '23 Feature Update)
 
+![](https://github.com/FlineDev/RemafoX-LandingPage/blob/main/assets/videos/v1.5.0-AutoCompletion.gif)
+
 ### Added
 - The Add Translation window now provides auto-completions for the first two parts of a key to easily reuse the same prefixes. This saves time and prevents typos! [#22](https://github.com/FlineDev/RemafoX/issues/22)
 - The Add Translation window now supports both reusing existing keys and overriding them – you have the choice! [#81](https://github.com/FlineDev/RemafoX/issues/81), [#95](https://github.com/FlineDev/RemafoX/issues/95) (Thanks to [Nico](https://twitter.com/n1c0_muc) and [Rob](https://twitter.com/ConfusedVorlon)!)
