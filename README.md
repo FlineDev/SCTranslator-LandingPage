@@ -32,7 +32,7 @@ After forking the repo, your site will be live immediately on your personal Gith
 
 
 ### Step 2: Enter iOS App ID in `_config.yml`
-Enter your iOS app ID in the `ios_app_id` field and commit your changes. Your site will automatically rebuild with your app icon, name, price and link to App Store.
+Enter your iOS app ID in the `app_id` field and commit your changes. Your site will automatically rebuild with your app icon, name, price and link to App Store.
 
 You can go on with customising almost anything in the `_config.yml` file. 
 

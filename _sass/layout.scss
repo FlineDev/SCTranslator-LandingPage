@@ -394,7 +394,7 @@ nav > ul li a:active {
 	margin-top: 23px;
 }
 
-.videoContainer {
+.iphoneVideoContainer {
 	width: 349px;
 	height: 755px;
 	-webkit-clip-path: url(#screenMask);
@@ -403,7 +403,7 @@ nav > ul li a:active {
 	margin-top: 23px;
 }
 
-.videoContainer > video {
+.iphoneVideoContainer > video {
 	width: 349px;
 	height: 755px;
 }
@@ -420,14 +420,14 @@ nav > ul li a:active {
 		margin-top: 22px;
 	}
 
-	.videoContainer {
+	.iphoneVideoContainer {
 		width: 322px;
 		height: 698px;
 		margin-left: 24px;
 		margin-top: 22px;
 	}
 
-	.videoContainer > video {
+	.iphoneVideoContainer > video {
 		width: 322px;
 		height: 698px;
 	}
@@ -454,14 +454,107 @@ nav > ul li a:active {
 		margin-top: 17px;
 	}
 
-	.videoContainer {
+	.iphoneVideoContainer {
 		width: 226px;
 		height: 488px;
 		margin-left: 0px;
 		margin-top: 17px;
 	}
 
-	.videoContainer > video {
+	.iphoneVideoContainer > video {
+		width: 226px;
+		height: 488px;
+	}
+
+}
+
+
+// Mac Device Preview
+
+.macPreview {
+	grid-area: p;
+	background-image: url($device-color);
+	background-size: 400px auto;
+	background-repeat: no-repeat;
+	margin-top: 68px;
+}
+
+.macScreen {
+	width: 349px;
+	-webkit-clip-path: url(#screenMask);
+	clip-path: url(#screenMask);
+	margin-left: 26px;
+	margin-top: 23px;
+}
+
+.macVideoContainer {
+	width: 349px;
+	height: 755px;
+	-webkit-clip-path: url(#screenMask);
+	clip-path: url(#screenMask);
+	margin-left: 26px;
+	margin-top: 23px;
+}
+
+.macVideoContainer > video {
+	width: 349px;
+	height: 755px;
+}
+
+@media only screen and (max-width: 1070px) {
+
+	.macPreview {
+		background-size: 370px auto;
+	}
+
+	.macScreen {
+		width: 322px;
+		margin-left: 24px;
+		margin-top: 22px;
+	}
+
+	.macVideoContainer {
+		width: 322px;
+		height: 698px;
+		margin-left: 24px;
+		margin-top: 22px;
+	}
+
+	.macVideoContainer > video {
+		width: 322px;
+		height: 698px;
+	}
+
+}
+
+@media only screen and (max-width: 992px) {
+
+	.macPreview {
+		display: flex;
+		background-size: 260px auto;
+		background-position: center 0;
+		margin-top: 47px;
+		justify-content: center;
+		padding-bottom: 75px;
+	}
+
+	.macScreen {
+		width: 226px;
+		height: 488px;
+		-webkit-clip-path: url(#screenMask);
+		clip-path: url(#screenMask);
+		margin: 0px;
+		margin-top: 17px;
+	}
+
+	.macVideoContainer {
+		width: 226px;
+		height: 488px;
+		margin-left: 0px;
+		margin-top: 17px;
+	}
+
+	.macVideoContainer > video {
 		width: 226px;
 		height: 488px;
 	}
