@@ -40,50 +40,62 @@ features                                  :
   - title                                 : Reduce Number of Steps
     description                           : No longer manually edit Strings in different languages when adding new keys.
     fontawesome_icon_name                 : stopwatch
+    gif_name                             : 
 
   - title                                 : Reduce Context Switches
     description                           : Don't even leave the context of your Swift file – stay focused.
     fontawesome_icon_name                 : smile
-
-  - title                                 : Machine Translation
-    description                           : Setup your DeepL or Microsoft Translator API keys and machine translate your entire app.
-    fontawesome_icon_name                 : robot
-
-  - title                                 : Linter
-    description                           : Get warnings for translation issues such as empty translations or duplicate keys.
-    fontawesome_icon_name                 : check-circle
-
-  - title                                 : Normalizer
-    description                           : Find translations faster in your Strings files by sorting their keys alphabetically.
-    fontawesome_icon_name                 : broom
-
-  - title                                 : Storyboard/XIB Synchronizer
-    description                           : Automatically update the Strings files of localized Interface Builder files on changes.
-    fontawesome_icon_name                 : sync
-
-  - title                                 : Beginner-friendly
-    description                           : Lots of expandable explanations, step-by-step guides and even video guides available.
-    fontawesome_icon_name                 : graduation-cap
+    gif_name                             : 
 
   - title                                 : Pluralization made easy
     description                           : Full support for pluralization via Stringsdict files without the need to learn about their syntax.
     fontawesome_icon_name                 : th-list
+    gif_name                             : AddTranslation
+
+  - title                                 : Machine Translation
+    description                           : Setup your DeepL or Microsoft Translator API keys and machine translate your entire app.
+    fontawesome_icon_name                 : robot
+    gif_name                             : 
+
+  - title                                 : Linter
+    description                           : Get warnings for translation issues such as empty translations or duplicate keys.
+    fontawesome_icon_name                 : check-circle
+    gif_name                             : 
+
+  - title                                 : Normalizer
+    description                           : Find translations faster in your Strings files by sorting their keys alphabetically.
+    fontawesome_icon_name                 : broom
+    gif_name                             : LintMachineTranslate
 
   - title                                 : Smart machine translation
     description                           : Translating pluralized texts is made easy by an automatic language-aware mapping of plural cases.
     fontawesome_icon_name                 : brain
+    gif_name                             : 
+
+  - title                                 : Storyboard/XIB Synchronizer
+    description                           : Automatically update the Strings files of localized Interface Builder files on changes.
+    fontawesome_icon_name                 : sync
+    gif_name                             : 
+
+  - title                                 : Beginner-friendly
+    description                           : Lots of expandable explanations, step-by-step guides and even video guides available.
+    fontawesome_icon_name                 : graduation-cap
+    gif_name                             : ProjectSetup
 
   - title                                 : Flexible Payment
     description                           : Advanced features are available via both subscriptions and one-time purchases.
     fontawesome_icon_name                 : store
+    gif_name                             : 
 
   - title                                 : Regular Updates
     description                           : This is just the beginning. With monthly feature updates, more things are on the horizon.
     fontawesome_icon_name                 : arrow-up
+    gif_name                             : 
 
   - title                                 : Free Tier
     description                           : For smaller projects, most of the features are fully available without the need to pay anything.
     fontawesome_icon_name                 : coins
+    gif_name                             : 
 
 
 
