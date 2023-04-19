@@ -7,13 +7,13 @@ ios_app_country                           : us                                  
 
 appstore_link                             : https://apps.apple.com/app/apple-store/id1605635026?pt=549314&ct=remafox.app&mt=8                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+presskit_download_link                    : https://github.com/FlineDev/RemafoX-LandingPage/raw/main/downloads/PressKit-v1.5.zip                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : "Freemium (Free: 200 texts & 10 languages per project)"                                  # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Improved Xcode translation workflow.
+app_description                           : Improved Xcode translation workflow with machine translation.
 
 enable_smart_app_banner                   : false                                     # Set to true to show a smart app banner at top of page on mobile devices.
 
