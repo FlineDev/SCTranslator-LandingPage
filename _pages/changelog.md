@@ -9,6 +9,12 @@ include_in_header: true
 Note that I follow [Semantic Versioning](https://semver.org) which means that the `major` (first) number in a version like `1.0.0` will only change if there's either a breaking change with something like the config file format (users with the old version then wouldn't be able to open the file saved with the new version), or if there's a significant change in the usage flow of the app (so users need to change their habits). A **migration guide** will be provided on this page for every breaking change.
 
 
+## 🐞 [1.5.1] - 2023-04-30
+
+### Fixed
+- Removing supported languages from a project was leading to an error message when using the workflow shortcut. [#101](https://github.com/FlineDev/RemafoX/issues/101) (Thanks to [Guglielmo](https://twitter.com/gui_dev)!)
+
+
 ## ✨ [1.5.0] - 2023-04-15 (Feb, Mar, Apr '23 Feature Update)
 
 ![](https://github.com/FlineDev/RemafoX-LandingPage/raw/main/assets/gifs/updates/v1.5.0-AutoCompletion.gif)
