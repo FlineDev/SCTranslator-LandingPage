@@ -14,7 +14,7 @@ presskit_download_link                    : https://github.com/FlineDev/RemafoX-
 app_icon                                  : assets/appicon.png                        # Automatically populates if not set and if App ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if App ID is set.  Otherwise enter manually.
 app_price                                 : "Freemium (Free: 200 texts & 10 languages per project)"                                  # Automatically populates if not set and if App ID is set.  Otherwise enter manually.
-app_description                           : Xcode Pro translation workflow + machine translation.
+app_description                           : Reduce the developers' app translation time by 90%!
 
 enable_smart_app_banner                   : false                                     # Set to true to show a smart app banner at top of page on mobile devices.
 
