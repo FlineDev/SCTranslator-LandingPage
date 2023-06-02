@@ -8,6 +8,16 @@ include_in_header: true
 
 Note that I follow [Semantic Versioning](https://semver.org) which means that the `major` (first) number in a version like `1.0.0` will only change if there's either a breaking change with something like the config file format (users with the old version then wouldn't be able to open the file saved with the new version), or if there's a significant change in the usage flow of the app (so users need to change their habits). A **migration guide** will be provided on this page for every breaking change.
 
+## ✨ [1.6.0] - 2023-06-02 (May '23 Feature Update)
+
+### Added
+- New 'Sort Selection' button in the Xcode menu that allows you to select code and sort it alphabetically (like arrays, variables, cases & more).
+- New 'Multi-Line' button in the Xcode menu that allows multi-lining code that represents some form of collection (like arrays, params & more).
+- New 'One-Line' button in the Xcode menu that allows one-lining code that spans multiple lines (like arrays, params & more).
+
+### Fixed
+- Cancelling the Add Translation window was not communicating back to the Xcode extension reliably.
+
 
 ## 🐞 [1.5.1] - 2023-04-30
 
