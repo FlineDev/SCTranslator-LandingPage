@@ -53,6 +53,21 @@ features                                  :
     fontawesome_icon_name                 : th-list
     gif_name                             : AddTranslation
 
+  - title                                 : Sort Selection
+    description                           : Alphabetically organize selected code right in Xcode using buttons RemafoX adds to the Editor menu.
+    fontawesome_icon_name                 : sort-alpha-down
+    gif_name                             : 
+
+  - title                                 : Multi-Line Code
+    description                           : Expand parameter lists or other collections to multiple lines with one click to improve readability.
+    fontawesome_icon_name                 : plus
+    gif_name                             : 
+
+  - title                                 : One-Line Code
+    description                           : Instantly condense multi-line code into a single line, reducing clutter in favor of concise code.
+    fontawesome_icon_name                 : minus
+    gif_name                             : SortMultiOneLine
+
   - title                                 : Machine Translation
     description                           : Setup your DeepL or Microsoft Translator API keys and machine translate your entire app.
     fontawesome_icon_name                 : robot

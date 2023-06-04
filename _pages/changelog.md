@@ -10,6 +10,8 @@ Note that I follow [Semantic Versioning](https://semver.org) which means that th
 
 ## ✨ [1.6.0] - 2023-06-02 (May '23 Feature Update)
 
+![](https://github.com/FlineDev/RemafoX-LandingPage/raw/main/assets/gifs/updates/v1.6.0-SortMultiOneLine)
+
 ### Added
 - New 'Sort Selection' button in the Xcode menu that allows you to select code and sort it alphabetically (like arrays, variables, cases & more).
 - New 'Multi-Line' button in the Xcode menu that allows multi-lining code that represents some form of collection (like arrays, params & more).
