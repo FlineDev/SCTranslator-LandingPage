@@ -22,14 +22,14 @@ enable_smart_app_banner                   : false                               
 
 # Information About Yourself
 your_name                                 : Cihat Gündüz
-your_link                                 : https://fline.dev/about/
+your_link                                 : https://fline.dev/about/?ref=remafox.app
 your_city                                 : the EU 🇪🇺
-email_address                             : support@fline.dev
+email_address                             : remafox@fline.dev
 facebook_username                         :
 instagram_username                        :
 twitter_username                          : RemafoX_App
 mastodon_url                              : https://iosdev.space/@RemafoX_App
-github_username                           : FlineDev/RemafoX
+github_username                           : Jeehut
 youtube_username                          : FlineDev
 twitch_username                           : Jeehut
 
