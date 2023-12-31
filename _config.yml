@@ -2,19 +2,19 @@
 page_title                                :                                           # Automatically populates with app name if not set and if App ID is set. Otherwise enter manually.
 
 # App Info
-app_id                                    : 1605635026                                # Required. Enter App ID to automatically populate name, price and icons (e.g. 718043190).
+app_id                                    : 6475053426                                # Required. Enter App ID to automatically populate name, price and icons (e.g. 718043190).
 app_country                               : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 is_mac_app                                : true                                      # Required.
 
-appstore_link                             : https://apps.apple.com/app/apple-store/id1605635026?pt=549314&ct=remafox.app&mt=8                                          # Automatically populates if not set and if App ID is set. Otherwise enter manually.
+appstore_link                             : https://apps.apple.com/app/apple-store/id6475053426?pt=549314&ct=sctranslator.app&mt=8                                          # Automatically populates if not set and if App ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://github.com/FlineDev/RemafoX-LandingPage/raw/main/downloads/PressKit-v1.5.zip                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+presskit_download_link                    : https://github.com/FlineDev/SCTranslator-LandingPage/raw/main/downloads/PressKit-v1.5.zip                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                        # Automatically populates if not set and if App ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if App ID is set.  Otherwise enter manually.
-app_price                                 : "Freemium (Free: 200 texts & 10 languages per project)"                                  # Automatically populates if not set and if App ID is set.  Otherwise enter manually.
-app_description                           : Reduce the developers' app translation time by 90%!
+app_price                                 : "Freemium (Free: 10 languages & 200 texts per catalog)"                                  # Automatically populates if not set and if App ID is set.  Otherwise enter manually.
+app_description                           : Drag & Drop Localization with Machine!
 
 enable_smart_app_banner                   : false                                     # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -22,13 +22,13 @@ enable_smart_app_banner                   : false                               
 
 # Information About Yourself
 your_name                                 : Cihat Gündüz
-your_link                                 : https://fline.dev/about/?ref=remafox.app
+your_link                                 : https://fline.dev/about/?ref=sctranslator.app
 your_city                                 : the EU 🇪🇺
-email_address                             : remafox@fline.dev
+email_address                             : sct@fline.dev
 facebook_username                         :
 instagram_username                        :
-twitter_username                          : RemafoX_App
-mastodon_url                              : https://iosdev.space/@RemafoX_App
+twitter_username                          : 
+mastodon_url                              : 
 github_username                           : Jeehut
 youtube_username                          : FlineDev
 twitch_username                           : Jeehut
