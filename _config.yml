@@ -1,5 +1,5 @@
 #page title
-page_title                                : "SCT: String Catalog Translator"                                          # Automatically populates with app name if not set and if App ID is set. Otherwise enter manually.
+page_title                                : "String Catalog Translator"                                          # Automatically populates with app name if not set and if App ID is set. Otherwise enter manually.
 
 # App Info
 app_id                                    : 6475053426                                # Required. Enter App ID to automatically populate name, price and icons (e.g. 718043190).
