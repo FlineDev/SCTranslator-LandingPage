@@ -17,12 +17,12 @@ include_in_header: true
 
 ## 🐞 [2.0.1] - 2024-05-05
 
-- Fixed an oversight that made it seem that API keys are required for the new Translation Editor mode. Should work without now!
+- Fixed an oversight that made it seem that **API keys** are required for the new Translation Editor mode. Should work without now!
 
 
-## ✨✨✨ [2.0.0] - 2024-05-01
+## ✨✨ [2.0.0] - 2024-05-01
 
-HUGE FREE UPDATE: Say hello to the new "Translation Editor", fixing all the issues you had with the String Catalog editor inside Xcode. Just drag & drop your file to open it in TranslateKit's editor and get enormous benefits, including multi-select (to confirm multiple entries at once), keyboard shortcuts (for faster navigation), parameter inconsistency warnings (like a %@ in the source language missing in a translation), deleting an entire language (not supported in Xcode), and so much more. And all this for free!
+**HUGE FREE UPDATE**: Say hello to the new **"Translation Editor"**, fixing all the issues you had with the String Catalog editor inside Xcode. Just drag & drop your file to open it in TranslateKit's editor and get enormous benefits, including multi-select (to confirm multiple entries at once), keyboard shortcuts (for faster navigation), parameter inconsistency warnings (like a %@ in the source language missing in a translation), deleting an entire language (not supported in Xcode), and so much more. And all this for free!
 
 
 ## 🐞 [1.7.1] - 2024-04-25
@@ -47,7 +47,7 @@ HUGE FREE UPDATE: Say hello to the new "Translation Editor", fixing all the issu
 ## ✨ [1.6.0] - 2024-03-16
 
 - New menu bar extra to search for Common Translations for consistency with iOS terminology in ~40 languages without leaving Xcode!
-- Rebranded the name of the app from String Catalog Translator to TranslateKit!
+- Rebranded the name of the app from **String Catalog Translator** to **TranslateKit**!
 - Fixed the broken 'Rate the App' link in the help menu (thanks Kris!)
 
 
@@ -62,9 +62,9 @@ HUGE FREE UPDATE: Say hello to the new "Translation Editor", fixing all the issu
 
 ## ✨ [1.5.0] - 2024-02-29
 
-NEW: More than 1,500 high-quality "Common Translations" such as "OK", "Save!", "Cancel", and "Done" are built-in to the app with support for nearly 40 languages. You don't need to do anything: matching texts are detected for new translations automatically. This improves the quality of your translations, reduces clipped texts in some languages, and also reduces the
+**NEW**: More than 1,500 high-quality "Common Translations" such as "OK", "Save!", "Cancel", and "Done" are built-in to the app with support for nearly 40 languages. You don't need to do anything: matching texts are detected for new translations automatically. This improves the quality of your translations, reduces clipped texts in some languages, and also reduces the
 
-NEW: You can now see a small indicator (with hover tooltip support) in the translation modal that shows which source your translations are coming from. This way you know which translation service provided which translation, or if the translation was even matched from the new "Common Translations" dataset.
+**NEW**: You can now see a small indicator (with hover tooltip support) in the translation modal that shows which source your translations are coming from. This way you know which translation service provided which translation, or if the translation was even matched from the new "Common Translations" dataset.
 
 
 ## ✨ [1.4.0] - 2024-02-10
@@ -72,7 +72,7 @@ NEW: You can now see a small indicator (with hover tooltip support) in the trans
 - Changed: Defaults to 'Confirmed' state for machine-translations & recommends it now. This goes in line with how String Catalogs behave on source language value changes.
 - Fixed: Automatically repairs broken parameters in common cases where machine-translation services break things like "%@@" to things like "% @@" or "%@@".
 
-Migration Notice: If you turn on the 'Confirmed' mode in Settings, all your translations in 'Needs Review' state will get re-translated. This is expected behavior as whenever you make a change to a value in your source language, Xcode will automatically mark related translations as 'Needs Review' so they get re-translated as well.
+**Migration Notice**: If you turn on the 'Confirmed' mode in Settings, all your translations in 'Needs Review' state will get re-translated. This is expected behavior as whenever you make a change to a value in your source language, Xcode will automatically mark related translations as 'Needs Review' so they get re-translated as well.
 
 
 ## ✨ [1.3.0] - 2024-01-28
@@ -99,4 +99,4 @@ For example, I provide a button "Found a mistake?" in one of my apps' toolbar, b
 
 ## ✨ [1.0.0] - 2024-01-05
 
-Initial Release. 🚀🎉
+**Initial Release**. 🚀🎉
