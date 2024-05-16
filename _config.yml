@@ -60,7 +60,7 @@ features                                  :
 
   - title                                 : Consistency with Apple Terminology
     description                           : Use the menu bar extra to search for common translations and copy them without leaving Xcode.
-    fontawesome_icon_name                 : apple
+    fontawesome_icon_name                 : check
     gif_name                              :
 
   - title                                 : Built-In Translation Editor
@@ -70,17 +70,12 @@ features                                  :
 
   - title                                 : Parameter Mismatch Detection
     description                           : Find bugs in your translations with built-in checks for missing parameters in other languages.
-    fontawesome_icon_name                 : exclamationmark-triangle
+    fontawesome_icon_name                 : exclamation-triangle
     gif_name                              :
 
   - title                                 : Great Accuracy
     description                           : Achieve accurate, context-aware translations with top-tier services.
     fontawesome_icon_name                 : check-circle
-    gif_name                              : 
-
-  - title                                 : Boost Productivity
-    description                           : Focus on development while the app handles localization.
-    fontawesome_icon_name                 : rocket
     gif_name                              : 
 
   - title                                 : Global Reach
