@@ -14,7 +14,7 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/appicon.png                        # Automatically populates if not set and if App ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : "TranslateKit: App Localizer"                                          # Automatically populates if not set and if App ID is set.  Otherwise enter manually.
 app_price                                 : "10 languages & 200 strings free – just $5/month for more"                                  # Automatically populates if not set and if App ID is set.  Otherwise enter manually.
-app_description                           : Localize your XCStrings files!
+app_description                           : Drag & Drop String Catalog Localization with Extras!
 
 enable_smart_app_banner                   : false                                     # Set to true to show a smart app banner at top of page on mobile devices.
 
