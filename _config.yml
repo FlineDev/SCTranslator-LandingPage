@@ -1,5 +1,5 @@
 #page title
-page_title                                : "String Catalog Translator"                                          # Automatically populates with app name if not set and if App ID is set. Otherwise enter manually.
+page_title                                : "TranslateKit: App Localizer"                                          # Automatically populates with app name if not set and if App ID is set. Otherwise enter manually.
 
 # App Info
 app_id                                    : 6475053426                                # Required. Enter App ID to automatically populate name, price and icons (e.g. 718043190).
@@ -12,8 +12,8 @@ presskit_download_link                    :                                     
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                        # Automatically populates if not set and if App ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : "String Catalog Translator"                                          # Automatically populates if not set and if App ID is set.  Otherwise enter manually.
-app_price                                 : "Freemium (Free: 10 languages & 200 strings per catalog)"                                  # Automatically populates if not set and if App ID is set.  Otherwise enter manually.
+app_name                                  : "TranslateKit: App Localizer"                                          # Automatically populates if not set and if App ID is set.  Otherwise enter manually.
+app_price                                 : "10 languages & 200 strings free – just $5/month for more"                                  # Automatically populates if not set and if App ID is set.  Otherwise enter manually.
 app_description                           : Localize your XCStrings files!
 
 enable_smart_app_banner                   : false                                     # Set to true to show a smart app banner at top of page on mobile devices.
@@ -22,9 +22,9 @@ enable_smart_app_banner                   : false                               
 
 # Information About Yourself
 your_name                                 : Cihat Gündüz
-your_link                                 : https://fline.dev/about/?ref=sctranslator.app
+your_link                                 : https://fline.dev/about/?ref=translatekit.app
 your_city                                 : the EU 🇪🇺
-email_address                             : sct@fline.dev
+email_address                             : translatekit@fline.dev
 facebook_username                         :
 instagram_username                        :
 twitter_username                          : 
@@ -39,19 +39,39 @@ twitch_username                           : Jeehut
 features                                  :
 
   - title                                 : Drag & Drop Simplicity
-    description                           : Easily translate .xcstrings files with a simple drag-and-drop action.
+    description                           : Easily translate String Catalog (.xcstrings) files with a simple drag-and-drop action.
     fontawesome_icon_name                 : mouse-pointer
     gif_name                              : 
 
-  - title                                 : Multi-Language Support
+  - title                                 : Multi-Service & Language Support
     description                           : Access translations in over 150 languages from Google, Microsoft, DeepL, Yandex.
     fontawesome_icon_name                 : language
     gif_name                              : 
 
   - title                                 : Automatic Empty Field Detection
-    description                           : Smart detection and translation of empty fields in your String Catalog files.
+    description                           : Smart detection and translation only of empty fields in your String Catalog files.
     fontawesome_icon_name                 : binoculars
     gif_name                              : AppPreview
+
+  - title                                 : Built-In Common Translations
+    description                           : Over 1,500 confirmed translations ensure common texts like 'Save' are correctly translated.
+    fontawesome_icon_name                 : book
+    gif_name                              :
+
+  - title                                 : Consistency with Apple Terminology
+    description                           : Use the menu bar extra to search for common translations and copy them without leaving Xcode.
+    fontawesome_icon_name                 : apple
+    gif_name                              :
+
+  - title                                 : Built-In Translation Editor
+    description                           : Use our String Catalog editor as it supports more features than Xcode, such as batch-review.
+    fontawesome_icon_name                 : edit
+    gif_name                              : TranslationEditor
+
+  - title                                 : Parameter Mismatch Detection
+    description                           : Find bugs in your translations with built-in checks for missing parameters in other languages.
+    fontawesome_icon_name                 : exclamationmark-triangle
+    gif_name                              :
 
   - title                                 : Great Accuracy
     description                           : Achieve accurate, context-aware translations with top-tier services.
@@ -67,7 +87,6 @@ features                                  :
     description                           : Expand your app's audience worldwide with minimal effort.
     fontawesome_icon_name                 : globe
     gif_name                              : 
-
 
 
 # Theme Settings
